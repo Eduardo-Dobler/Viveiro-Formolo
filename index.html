@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/icone5.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+    <title>Viveiro Formolo</title>
+</head>
+<body> 
+    <header>
+        <script src="script.js"></script>
+        <script src="boasvindas.js"></script>
+        <center>
+        <table id="inicio">
+            <tr>
+                <td id="td1">
+                    <span class="abrir-menu" onclick="abrirMenu()">&#9776;</span>
+                </td>
+    
+                <td id="td2">
+
+                        <img src="images/icone4.png" height="160px" width="auto" id="logo"> 
+
+                </td>
+                <td id="td3">
+                    <p>Configurações Vlibras
+                        <a href="https://vlibras.gov.br/doc/widget/functionalities/avatarchange.html">AQUI</a>
+                        </p>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    </header>
+    <br>    <center>
+        <table height="500px" width="auto">
+            <tr>
+                <td><a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" id="btncarl">
+                    <img src="images/setae.png" height="50px" width="auto"id="seta" >
+                  <span class="sr-only" >Anterior</span>
+                </a></td>
+                <td>
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/carl1.jpg"  height="500px" id="carlimg" >
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carl2.jpg"  height="500px" id="carlimg">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carl3.jpg"  height="500px" id="carlimg">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carl4.jpg"  height="500px" id="carlimg">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carl5.jpg"  height="500px" id="carlimg">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carl6.jpg"  height="500px" id="carlimg">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carl7.jpg"  height="500px" id="carlimg">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carl8.jpg"  height="500px" id="carlimg">
+                          </div>
+                        </div>
+
+                      </div>
+                      <!--Referencia https://getbootstrap.com.br/docs/4.1/components/carousel/  -->
+                </td>
+                <td><a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"id="btncarl" >
+                    <img src="images/setad.png" height="50px" width="auto" id="seta" >
+                    <span class="sr-only">Próximo</span>
+                  </a></td>
+            </tr>
+        </table>
+
+</center>
+    <div id="menuLateral" class="menu-lateral">
+        <a href="javascript:void(0)" class="fechar-menu" onclick="fecharMenu()">&times;</a>
+        <a href="#inicio">Início</a>
+        <a href="#titulo">Produtos</a>
+        <a href="#final">Contato</a>
+        <a href="#mapa">Localização</a>
+        <a href="sobre.html">Sobre nós</a>
+      </div>
+    
+
+        <br>
+        <center><h1 id="titulo">Nossos Produtos</h1></center>
+      <br>
+        <br>
+        <table>
+            <tr>
+                <td id="td5">
+                    <h1>Tabela de preço por BANDEIJA
+                        <Br> Tamanho 200 e 128</Br>
+                    </h1>
+                    <ol id="lista" >
+
+                    <li id="lista__item" >Alface Crespa <br>128: R$20,00 | 200: R$17,00</li>
+                    <li id="lista__item" >Alface Americana Ludmila <br>128: R$20,00 | 200: R$18,00</li>
+                    <li id="lista__item" >Alface Americana Lucybrow <br>128:R$20,00 | 200: R$18,00</li>
+                    <li id="lista__item" >Alface Mimosa Verde Kyrybaty <br>128: R$20,00 | 200: R$25,00</li>
+                    <li id="lista__item" >Alface Mimosa Verde Angélica <br>128: R$20,00 | 200: R$18,00</li>
+                    <li id="lista__item" >Alface Mimosa Verde Nataly <br>128: R$20,00 | 200: R$18,00</li>
+                    <li id="lista__item" >Alface Mimosa Roxa Mila <br>128: R$20,00 | 200: R$18,00</li>
+                    <li id="lista__item" >Alface Mimosa Roxa Betânia <br>128: R$20,00 | 200: R$18,00</li>
+                    <li id="lista__item" >Alface Caipira <br>128: R$20,00 | 200: R$18,00</li>
+                    <li id="lista__item" >Alface Gabriela <br>128: R$20,00 | 200: R$18,00</li>
+                    <li id="lista__item" >Alface Frize <br>128: R$20,00 | 200: R$20,00</li>
+                    <li id="lista__item" >Alface Lisa Stela <br>128: R$20,00 | 200: R$18,00</li>
+                    <li id="lista__item" >Alface Lisa Larissa <br>128: R$20,00 | 200: R$18,00</li>
+                    <li id="lista__item" >Agrião da Terra <br>200: R$20,00</li>
+                    <li id="lista__item" >Batavia<br>128: R$20,00</li>
+                    <li id="lista__item" >Romana<br>128: R$20,00</li>
+                    <li id="lista__item" >Pão de Açucar<br>128: R$20,00</li>
+                    <li id="lista__item" >Beteraba <br>128: R$20,00 | 200: R$22,00</li>
+                    <li id="lista__item" >Radicci Todo Ano <br>128: R$20,00 | 200: R$22,00</li>
+                    <li id="lista__item" >Radicci Pisacan <br>128: R$20,00 | 200: R$22,00</li>
+                    <li id="lista__item" >Rúcula <br>128: R$20,00 | 200: R$18,00</li>
+                    <li id="lista__item" >Brócolis<br>128: R$20,00 | 200: R$29,00</li>
+                    <li id="lista__item" >Couve-flor<br>128: R$20,00 | 200: R$47,00</li>
+                    <li id="lista__item" >Couve-folha <br>128: R$20,00</li>
+                    <li id="lista__item" >Coentro <br>200: R$20,00</li>
+                    <li id="lista__item" >Chicória <br>128: R$20,00 | 200: R$18,00</li>
+                    <li id="lista__item" >Chicória Roxa Indigo <br>200: R$50,00</li>
+                    <li id="lista__item" >Couve-chineza<br>200: R$23,00</li>
+                    <li id="lista__item" >Cebolinha <br>128: R$20,00 | 200: R$25,00</li>
+                    <li id="lista__item" >Salsinha <br>128: R$20,00 | 200: R$25,00</li>
+                    <li id="lista__item" >Repolho Verde <br>128: R$20,00 | 200: R$23,00</li>
+                    <li id="lista__item" >Repolho Coração de boi <br>128: R$20,00</li>
+                    <li id="lista__item" >Repolho Roxo <br>128: R$20,00 | 200: R$30,00</li>
+                </ol>
+                </td>
+                <td id="td4">
+                    <table id="tbn2">
+                        <tr>
+                            <td id="tdA">
+                            <img src="images/crespa.jpg" height="220px" width="auto"> 
+                            <h1>Alface Crespa</h1><h1>128: R$20,00 | 200: R$18,00</h1>
+                            </td>
+                            <td id="tdA">
+                            <img src="images/ludmila.jpg" height="220px" width="auto">
+                            <h1>Alface Americana Ludmila</h1><h1>128: R$20,00 | 200: R$18,00</h1>
+                            </td>
+                            <td id="tdA">
+                            <img src="images/lucybrow.jpg" height="220px" width="auto">
+                            <h1>Alface Americana Lucybrow</h1><h1>128:R$20,00 | 200: R$18,00</h1>
+                            </td>
+                        </tr>                        <tr>
+                            <td id="tdA">
+                            <img src="images/kyrybaty.jpg" height="220px" width="auto">
+                            <h1>Alface Mimosa Verde Kyrybaty</h1><h1>128: R$20,00 | 200: R$25,00</h1>
+                            </td>
+                            <td id="tdA">
+                            <img src="images/angelica.jpg" height="220px" width="auto">
+                            <h1>Alface Mimosa Verde Angélica</h1><h1>128: R$20,00 | 200: R$18,00</h1>
+                            </td>
+                            <td id="tdA">
+                            <img src="images/nataly.jpg" height="220px" width="auto">
+                            <h1>Alface Mimosa Verde Nataly</h1><h1>128: R$20,00 | 200: R$18,00</h1>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="tdA">
+                            <img src="images/mila.jpg" height="220px" width="auto">
+                            <h1>Alface Mimosa Roxa Mila</h1><h1>128: R$20,00 | 200: R$18,00</h1>
+                            </td>
+                            <td id="tdA">
+                            <img src="images/betania.jpg" height="220px" width="auto">
+                            <h1>Alface Mimosa Roxa Betânia</h1><h1>128: R$20,00 | 200: R$18,00</h1>
+                            </td>
+                            <td id="tdA">
+                            <img src="images/caipira.jpg" height="220px" width="auto">
+                            <h1>Alface Caipira</h1><h1>128: R$20,00 | 200: R$18,00</h1>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="tdA">
+                            <img src="images/gabriela.jpg" height="220px" width="auto">
+                            <h1>Alface Gabriela</h1><h1>128: R$20,00 | 200: R$18,00</h1>
+                            </td>
+                            <td id="tdA">
+                            <img src="images/frize.jpg" height="220px" width="auto">
+                            <h1>Alface Frize</h1><h1>128: R$20,00 | 200: R$20,00</h1>
+                            </td>
+                            <td id="tdA">
+                            <img src="images/stela.jpg" height="220px" width="auto">
+                            <h1>Alface Lisa Stela</h1><h1>128: R$20,00 | 200: R$18,00</h1>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="tdA">
+                            <img src="images/larissa.jpg" height="220px" width="auto">
+                            <h1>Alface Lisa Larissa</h1><h1>128: R$20,00 | 200: R$18,00</h1>
+                            </td>
+                            <td id="tdA">
+                            <img src="images/agriao.jpg" height="220px" width="auto">
+                            <h1>Agrião da Terra</h1><h1>200: R$20,00</h1>
+                            </td>
+                            <td id="tdA">
+                            <img src="images/batavia 128.jpg" height="220px" width="auto">
+                            <h1>Batavia</h1><h1>128: R$20,00</h1>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="tdA">
+                            <img src="images/romana 128.jpg" height="220px" width="auto">
+                            <h1>Romana</h1><h1>28: R$20,00</h1>
+                            </td>
+                            <td id="tdA">
+                            <img src="images/pao de açucar 128.jpg" height="220px" width="auto">
+                            <h1>Pão de Açucar</h1><h1>128: R$20,00</h1>
+                            </td>
+                            <td id="tdA">
+                            <img src="images/beterraba.jpg" height="220px" width="auto">
+                            <h1>Beteraba</h1><h1>128: R$20,00 | 200: R$22,00</h1>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="tdA">
+                            <img src="images/radici todo ano.jpg" height="220px" width="auto">
+                            <h1>Radicci Todo Ano</h1><h1>128: R$20,00 | 200: R$22,00</h1>
+                            </td>
+                            <td id="tdA">
+                            <img src="images/pisacan.jpg" height="220px" width="auto">
+                            <h1>Radicci Pisacan</h1><h1>128: R$20,00 | 200: R$22,00</h1>
+                            </td>
+                            <td id="tdA">
+                            <img src="images/rucula.jpg" height="220px" width="auto">
+                            <h1>Rúcula</h1><h1>128: R$20,00 | 200: R$18,00</h1>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>7
+        <center>
+        <table >
+            <tr>
+                <td id="tdA">
+                <img src="images/brocolis.jpg" height="220px" width="auto">
+                <h1>Brócolis</h1><h1>128: R$20,00 | 200: R$29,00</h1>
+                </td>
+                <td id="tdA">
+                <img src="images/couve flor.jpg" height="220px" width="auto">
+                <h1>Couve-flor</h1><h1>128: R$20,00 | 200: R$47,00</h1>
+                </td>
+                <td id="tdA">
+                <img src="images/couve folha.jpg" height="220px" width="auto">
+                <h1>Couve-folha</h1><h1>128: R$20,00</h1>
+                </td>
+
+                <td id="tdA">
+                <img src="images/coentro.jpg" height="220px" width="auto">
+                <h1>Coentro</h1><h1>200: R$20,00</h1>
+                </td>
+            </tr>
+            <tr>
+                <td id="tdA">
+                <img src="images/chicoria.jpg" height="220px" width="auto">
+                <h1>Chicória</h1><h1>128: R$20,00 | 200: R$18,00</h1>
+                </td>
+                <td id="tdA">
+                <img src="images/chicoria roxa.jpg" height="220px" width="auto">
+                <h1>Chicória Roxa Indigo</h1><h1>200: R$50,00</h1>
+                </td>
+                <td id="tdA">
+                <img src="images/couve chineza.jpg" height="220px" width="auto">
+                <h1>Couve-chineza</h1><h1>200: R$23,00</h1>
+                </td>
+                <td id="tdA">
+                <img src="images/cebolinha.jpg" height="220px" width="auto">
+                <h1>Cebolinha</h1><h1>128: R$20,00 | 200: R$25,00</h1>
+                </td>
+            </tr>
+            <tr>
+                
+                <td id="tdA">
+                    <img src="images/salsinha.jpg" height="220px" width="auto">
+                    <h1>Salsinha</h1><h1>128: R$20,00 | 200: R$25,00</h1>
+                    </td>
+
+
+                <td id="tdA">
+                <img src="images/repolho verde.jpg" height="220px" width="auto">
+                <h1>Repolho Verde</h1><h1>128: R$20,00 | 200: R$23,00</h1>
+                </td>
+                <td id="tdA">
+                <img src="images/boi.jpg" height="220px" width="auto">
+                <h1>Repolho Coração de boi</h1><h1>128: R$20,00</h1>
+                </td>
+                <td id="tdA">
+                    <img src="images/repolho roxo.jpg" height="220px" width="auto">
+                    <h1>Repolho Roxo</h1><h1>128: R$20,00 | 200: R$30,00</h1>
+                    </td>
+            </tr>
+        </table>
+        </center>
+        <center>
+            <br id="mapa">
+        <h1 id="titulo">Localização</h1>
+<br>
+<br>
+        <iframe width="1000px" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d799.0648999106718!2d-51.144981774623325!3d-29.2560052838969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1730126086757!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<hr>
+     <br>
+        <a href="#"><button> Voltar </button></a>
+
+<br>
+<br>
+  
+        <footer id="final">
+            <table width="1400">
+                <tr>
+                    <td align="left" id="td1-2"><img src="images/Logo2.png" height="100px" width="auto" id="logo" > </td>
+
+                    <td align="center" id="td2-2"><p id="ftp">© 2024 Todos os direitos reservados Viveiro Formolo
+                    </p> </td>
+                    <td align="right" id="td3-2"><p id="ftp-2">Endereço:
+                        <br>
+Travessão Barata Goes,SN,
+<br>
+  Capela São Paulo, Galópolis
+<br>
+<br>Telefone:
+                        <br>
+                        54 996621990</p></td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        <table>
+                            <tr>
+                                <td>
+                                    <a href="https://www.instagram.com/viveiros_formolo/">
+                                        <img id="insta" src="images/insta.png" height="50px" width="auto" align="left">
+                                    </a>
+                                </td>
+                                <td id="zaptd">
+                                    <a href="https://w.app/ViveiroFormolo">
+                                        <img id="zap" src="images/zap.png" height="50px" width="auto">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </footer>
+    </center>
+    
+    <!--codigo do w.app-->
+    <script type="text/javascript">
+        window.onload = function(){
+        (function(d, script) {
+        script = d.createElement('script');
+        script.type = 'text/javascript';
+        script.async = true;
+        script.src = 'https://w.app/widget-v1/DSU8eA.js';
+        d.getElementsByTagName('head')[0].appendChild(script);
+        }(document));
+        };
+        </script>
+            <!--codigo do w.app-->
+            <div VW class="enabled">
+                <div VW-access-button class="active"></div>
+                <div VW-plugin-wrapper>
+                <div class="VW-plugin-top-wrapper"></div>    
+                </div>  
+                </div>
+                <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+                <script>
+                    new window.VLibras.Widget('https://vlibras.gov.br/app');
+                </script>
+</body>
+</html>
