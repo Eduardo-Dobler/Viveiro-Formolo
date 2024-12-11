@@ -45,6 +45,11 @@ img:active{
   border-radius: 12px;
   box-shadow: 0 0 0px black;
 }
+.btnzap{
+  position:fixed;
+  bottom: 40px;
+  right: 40px;
+}
 #zap{
   border-radius: 7px;
   box-shadow: 0 0 0px black;
